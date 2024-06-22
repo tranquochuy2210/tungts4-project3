@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: bank22101996/reverseproxy:1.0.1
+      - image: 225702921/tungts4-reverseproxy:1.0.1
         name: reverseproxy
         imagePullPolicy: Always
         resources:

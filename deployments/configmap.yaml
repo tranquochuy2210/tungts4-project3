@@ -4,8 +4,8 @@ metadata:
   name: env-config
 data:
   URL: "test"
-  AWS_BUCKET: "bucket-2666123-dev"
+  AWS_BUCKET: "project-3-tungts4"
   AWS_PROFILE: "default"
   AWS_REGION: "us-east-1"
   POSTGRES_DB: "postgres"
-  POSTGRES_HOST: "database-1.c6x7zjqhpphr.us-east-1.rds.amazonaws.com"
+  POSTGRES_HOST: "database-1.chi020qi43ot.us-east-1.rds.amazonaws.com"
