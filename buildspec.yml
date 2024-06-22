@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   variables:
-    DOCKER_USERNAME: "bank22101996"
+    DOCKER_USERNAME: "225702921"
   parameter-store:
-    DOCKER_PASSWORD: "docker_password"
+    DOCKER_PASSWORD: "login_docker_password"
 
 phases:
   pre_build:
