@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  URL: "test"
+  AWS_BUCKET: "bucket-2666123-dev"
+  AWS_PROFILE: "default"
+  AWS_REGION: "us-east-1"
+  POSTGRES_DB: "postgres"
+  POSTGRES_HOST: "database-1.c6x7zjqhpphr.us-east-1.rds.amazonaws.com"
