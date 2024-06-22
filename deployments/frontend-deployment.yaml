@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-        - image: 225702921/tungts4-udagram-frontend:1.0.1
+        - image: 225702921/tungts4-udagram-frontend:1.0.2
           name: frontend
           imagePullPolicy: Always
           resources:
