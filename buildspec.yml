@@ -23,7 +23,7 @@ phases:
       - docker tag tungts4-reverseproxy 225702921/tungts4-reverseproxy:1.0.1
       - docker tag tungts4-udagram-api-feed 225702921/tungts4-udagram-api-feed:1.0.1
       - docker tag tungts4-udagram-api-user 225702921/tungts4-udagram-api-user:1.0.1
-      - docker tag tungts4-udagram-frontend 225702921/tungts4-udagram-frontend:1.0.1
+      - docker tag tungts4-udagram-frontend 225702921/tungts4-udagram-frontend:1.0.2
   post_build:
     commands:
       - echo build complete
@@ -31,4 +31,4 @@ phases:
       - docker push 225702921/tungts4-reverseproxy:1.0.1
       - docker push 225702921/tungts4-udagram-api-feed:1.0.1
       - docker push 225702921/tungts4-udagram-api-user:1.0.1
-      - docker push 225702921/tungts4-udagram-frontend:1.0.1
+      - docker push 225702921/tungts4-udagram-frontend:1.0.2

@@ -81,7 +81,9 @@ spec:
                 secretKeyRef:
                   name: env-secret
                   key: SECRET_KEY
+          imagePullPolicy: Always
       restartPolicy: Always
+      
       volumes:
         - name: aws-secret
           secret:
